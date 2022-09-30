@@ -3,7 +3,7 @@
 
 #Lenguajes de programacion estadistica
 #Profesor: Christian Sucuzhana Arevalo
-#Alumno: Raul Vallverdu Esteban ; exp: 22060707
+#Alumno: Enrique Marin Sanchez ; exp: 22076186
 #Hands on 01
 
 
