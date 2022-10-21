@@ -49,3 +49,7 @@ df %>% ggplot(aes(df$marital,fill=happy))+geom_bar(position = "fill")
 
 df %>% ggplot(aes(df$degree,fill=happy))+geom_bar(position = "fill")
 
+#Dichotomous married/no variable -----------------------------------------------------
+
+df %<>% mutate(married = if_else(marital=="married","yes","no")) %>%
+  mutate(married=as_factor(married)) %>% view()
